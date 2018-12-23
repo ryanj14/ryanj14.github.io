@@ -11,7 +11,7 @@ section h2 {
   text-align: center;
 }
 
-section .projects {
+.projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,6 +20,21 @@ section .projects {
   justify-content: space-between;
 }
 
-section .projects article {
+@media (max-width: 768px) {
+  .projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.projects article {
   margin: 5%;
+}
+
+@media (max-width: 768px) {
+  .projects article h3 {
+    text-align: center;
+  }
 }

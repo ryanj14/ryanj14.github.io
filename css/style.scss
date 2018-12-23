@@ -9,16 +9,27 @@ section {
     h2 {
         text-align: center;
     }
+}
 
-    .projects {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        article {
-            margin: 5%;
+.projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+            @media (max-width: 768px) {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+            }
+    article {
+        margin: 5%;
+        h3 {
+            @media (max-width: 768px) {
+                text-align: center;
+            }
         }
     }
 }

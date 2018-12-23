@@ -31,7 +31,7 @@
     <a href="https://crowdvote.000webhostapp.com/">Crowd Vote</a>
     <a href="https://nonionic-ohm.000webhostapp.com/">Hangman</a>
     <a href="https://project3900.000webhostapp.com/index.html">School Project</a>
-    <nav>
+    </nav>
     <section>
       <h2>Personal Work</h2>
       <div class="projects">

@@ -1,1 +1,1 @@
-h1{text-align:center}
+h1{text-align:center}section{width:100%;border:2px solid red}section h2{text-align:center}section .projects{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}section .projects article{margin:5%}

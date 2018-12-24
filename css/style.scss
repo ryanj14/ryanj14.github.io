@@ -11,6 +11,15 @@ section {
     }
 }
 
+li {
+    a:hover {
+        color: white!important;
+        text-decoration: underline!important;
+        -webkit-text-decoration-color: red!important;
+                text-decoration-color: red!important;
+    }
+}
+
 .projects {
     display: -webkit-box;
     display: -ms-flexbox;

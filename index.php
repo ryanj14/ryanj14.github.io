@@ -24,14 +24,35 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body lang="en">
-  <header>
-      <h1>Ryan Joseph's Portfolio</h1>
-  </header>
-    <nav>
-    <a href="https://crowdvote.000webhostapp.com/">Crowd Vote</a>
-    <a href="https://nonionic-ohm.000webhostapp.com/">Hangman</a>
-    <a href="https://project3900.000webhostapp.com/index.html">School Project</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ryan</a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="https://crowdvote.000webhostapp.com/">Crowd Vote</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://nonionic-ohm.000webhostapp.com/">Hangman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://project3900.000webhostapp.com/index.html">School Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/ryan-joseph-226682163/">Linkedin Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ryanj14">Github Profile</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <header>
+        <h1>Ryan Joseph's Portfolio</h1>
+    </header>
     <section>
       <h2>Personal Work</h2>
       <div class="projects">

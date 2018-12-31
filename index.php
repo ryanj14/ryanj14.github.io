@@ -28,7 +28,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Ryan</a>
+      <a class="navbar-brand" href="#">Ryan Joseph</a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -53,20 +53,42 @@
     <header>
         <h1>Ryan Joseph's Portfolio</h1>
     </header>
+    <section class="bioSec">
+      <h2>Bio</h2>
+      <div class="bioDiv">
+        <article class="picture">
+          <img src="img/meikruss.png" alt="mike ross">
+        </article>
+        <article class="skills">
+          <h3>Skills</h3>
+          <p>HTML5, CSS3, JavaScript, PHP, C#, Swift.</p>
+        </article>
+      </div>
+    </section>
     <section>
       <h2>Personal Work</h2>
       <div class="projects">
         <article>
           <h3>Crowd Vote</h3>
-          <p></p>
+          <p>A web app that lets you ask a question with four possible answers. 
+            The audience to decides which of the four answers they perfer and after the selection it displays the results from the audience. 
+            Similar to Straw poll in a sense.</p>
+            <a href="https://crowdvote.000webhostapp.com/">Crowd Vote Link</a><br>
+            <a href="https://github.com/ryanj14/CrowdVote">Crowd Vote Github Repo</a>
         </article>
         <article>
           <h3>Hangman</h3>
-          <p></p>
+          <p>The classic hangman game where you can guess the word with seven guesses before you loose.
+            You can signup and keep your highest running score. This also has a leaderboard.
+          </p>
+          <a href="https://nonionic-ohm.000webhostapp.com/">Hangman Link</a><br>
+          <a href="https://github.com/ryanj14/hangman">Hangman Github Repo</a>  
         </article>
         <article>
-          <h3>School Project</h3>
-          <p></p>
+          <h3>Group Project</h3>
+          <p>This is a group project of four where we designed a website that has some backend functionality.</p>
+          <a href="https://project3900.000webhostapp.com/index.html">School Project Link</a><br>
+          <a href="https://github.com/ryanj14/group10">Group Project Github Repo</a>
         </article>
       </div>
     </section>

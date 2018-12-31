@@ -85,6 +85,36 @@ li {
     }
 }
 
+.contact {
+    article {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            padding-left: 3%;
+            margin-bottom: 2%;
+        }
+        div {
+            padding-left: 5%;
+            margin-bottom: 2%;
+            a {
+                padding-left: 2%;
+            }
+        }
+        img {
+            width: 32px;
+            height: 32px;
+        }
+        .contact3 {
+            display: flex;
+            p {
+                padding-left: 2%;
+            }
+        }
+    }
+}
+
+
+
 footer {
     height: 48px;
     background-color: #343a40;

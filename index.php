@@ -53,9 +53,6 @@
         </ul>
       </div>
     </nav>
-    <header>
-        <h1>Ryan Joseph's Portfolio</h1>
-    </header>
     <section class="bioSec">
       <h2>Skills</h2>
       <div class="bioDiv">
@@ -98,6 +95,18 @@
     <section class="contact">
       <article>
         <h3>Contact</h3>
+        <div class="contact1">
+          <img src="img/GitHub-Mark-64px.png">
+          <a href="https://github.com/ryanj14">github.com/ryanj14</a>
+        </div>
+        <div class="contact2">
+          <img src="img/linkedin.png">
+          <a href="https://www.linkedin.com/in/ryan-joseph-226682163/">linkedin.com/in/ryan-joseph-226682163</a>
+        </div>
+        <div class="contact3">
+          <img src="img/email.png">
+          <p>josephmryan14@gmail.com</p>
+        </div>
       </article>
     </section>
   </body>

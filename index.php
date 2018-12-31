@@ -47,6 +47,9 @@
           <li class="nav-item">
             <a class="nav-link" href="https://github.com/ryanj14">Github Profile</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://docs.google.com/document/d/1hye3N65a7Ot9HToe-BHYB3jIsWHtZxSJxuMVHP58FEg/edit?usp=sharing">CV</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -54,14 +57,14 @@
         <h1>Ryan Joseph's Portfolio</h1>
     </header>
     <section class="bioSec">
-      <h2>Bio</h2>
+      <h2>Skills</h2>
       <div class="bioDiv">
         <article class="picture">
           <img src="img/meikruss.png" alt="mike ross">
         </article>
         <article class="skills">
           <h3>Skills</h3>
-          <p>HTML5, CSS3, JavaScript, PHP, C#, Swift.</p>
+          <p>HTML5, CSS3, Sass, JavaScript, PHP, C#, Swift.</p>
         </article>
       </div>
     </section>
@@ -91,6 +94,11 @@
           <a href="https://github.com/ryanj14/group10">Group Project Github Repo</a>
         </article>
       </div>
+    </section>
+    <section class="contact">
+      <article>
+        <h3>Contact</h3>
+      </article>
     </section>
   </body>
   <footer>

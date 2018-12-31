@@ -32,7 +32,11 @@ li a:hover {
 }
 
 .bioSec .bioDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 2%;
 }
@@ -47,7 +51,6 @@ li a:hover {
 }
 
 .bioSec .bioDiv article {
-  border: 2px solid;
   text-align: center;
 }
 

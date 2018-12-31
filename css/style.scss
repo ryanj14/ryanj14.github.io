@@ -28,8 +28,12 @@ li {
         width: 100%;
     }
     .bioDiv {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         margin: 2%;
         @media (max-width: 768px) {
             -webkit-box-orient: vertical;
@@ -38,7 +42,6 @@ li {
                     flex-direction: column;
         }
         article {
-            border: 2px solid;
             text-align: center;
             @media (max-width: 768px) {
                 margin-bottom: 3%;

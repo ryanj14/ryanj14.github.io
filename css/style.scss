@@ -55,11 +55,15 @@ li {
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
             }
             .section3 {
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex;
+                justify-content: space-between;
             }
             text-align: center;
             @media (max-width: 768px) {
@@ -140,8 +144,6 @@ li {
         }
     }
 }
-
-
 
 footer {
     height: 48px;

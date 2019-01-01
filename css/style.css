@@ -50,17 +50,41 @@ li a:hover {
   }
 }
 
-.bioSec .bioDiv article {
+.bioSec .bioDiv .skills {
+  width: 100%;
   text-align: center;
 }
 
+.bioSec .bioDiv .skills .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.bioSec .bioDiv .skills .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bioSec .bioDiv .skills .section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media (max-width: 768px) {
-  .bioSec .bioDiv article {
+  .bioSec .bioDiv .skills {
     margin-bottom: 3%;
   }
 }
 
 .bioSec .bioDiv img {
+  width: 100px;
+  height: 64px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -108,7 +132,12 @@ li a:hover {
 }
 
 .contact article {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -132,6 +161,8 @@ li a:hover {
 }
 
 .contact article .contact3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -142,4 +173,12 @@ li a:hover {
 footer {
   height: 48px;
   background-color: #343a40;
+}
+
+footer p {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
 }

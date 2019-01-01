@@ -54,13 +54,23 @@
       </div>
     </nav>
     <section class="bioSec">
-      <h2>Skills</h2>
       <div class="bioDiv">
-        <article class="picture">
-          <img src="img/meikruss.png" alt="mike ross">
-        </article>
         <article class="skills">
           <h3>Skills</h3>
+          <div class="section1">
+            <img src="img/HTML5_Badge.png">
+            <img src="img/CSS3_logo.png">
+            <img src="img/sass.png">
+          </div>
+          <div class="section2">
+              <img src="img/php-logo.png">
+            <img src="img/c-logo.png">
+            <img src="img/JavaScript-logo.png">
+          </div>
+          <div class="section3">
+            <img src="img/Git-Icon.png">
+            <img src="img/2000px-Swift_logo.png">
+          </div>
           <p>HTML5, CSS3, Sass, JavaScript, PHP, C#, Swift.</p>
         </article>
       </div>
@@ -111,5 +121,6 @@
     </section>
   </body>
   <footer>
+    <p>Ryan Joseph &copy; 2018</p>
   </footer>
 </html>

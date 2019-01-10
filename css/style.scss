@@ -33,7 +33,6 @@ li {
     display: flex;
     img {
         padding-left: 2%;
-        height: 50%;
         width:50%;
         @media (max-width: 768px) {
             width: 97%;
@@ -41,7 +40,6 @@ li {
         }
     }
     article {
-        display: flex;
         align-items: center;
         justify-content: center;
         margin: 3%;
@@ -49,6 +47,11 @@ li {
         @media (max-width: 768px) {
             width: 70%;
             margin: auto;
+        }
+        div {
+            h3 {
+                margin: 0;
+            }
         }
     }
     @media (max-width: 768px) {

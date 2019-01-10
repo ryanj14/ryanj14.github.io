@@ -34,7 +34,6 @@ li a:hover {
 
 .title img {
   padding-left: 2%;
-  height: 50%;
   width: 50%;
 }
 
@@ -46,7 +45,6 @@ li a:hover {
 }
 
 .title article {
-  display: flex;
   align-items: center;
   justify-content: center;
   margin: 3%;
@@ -58,6 +56,10 @@ li a:hover {
     width: 70%;
     margin: auto;
   }
+}
+
+.title article div h3 {
+  margin: 0;
 }
 
 @media (max-width: 768px) {

@@ -14,8 +14,9 @@ section {
     -moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
     margin: 3%;
-    h2 {
-        text-align: center;
+    h3 {
+        margin: 3%;
+        padding-top: 3%;
     }
 }
 
@@ -128,9 +129,15 @@ li {
                     -ms-flex-direction: column;
                         flex-direction: column;
             }
+    h3 {
+        @media (max-width: 768px) {
+            text-align: left;
+        }
+    }
     article {
         width: 50%;
         margin: 3%;
+        margin-top: 0;
         text-align: center;
         @media (max-width: 768px) {
             width: 100%;
@@ -149,10 +156,6 @@ li {
     padding-bottom: 2%;
     .edStory {
         margin: 3%;
-    }
-    h3 {
-        margin: 3%;
-        padding-top: 3%;
     }
     h6 {
         display: flex;
@@ -178,7 +181,7 @@ li {
             -ms-flex-direction: column;
                 flex-direction: column;
         h3 {
-            margin: 3%;
+            padding-top: 0;
         }
         div {
             padding-left: 5%;

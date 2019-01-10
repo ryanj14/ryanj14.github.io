@@ -16,8 +16,9 @@ section {
   margin: 3%;
 }
 
-section h2 {
-  text-align: center;
+section h3 {
+  margin: 3%;
+  padding-top: 3%;
 }
 
 li a:hover {
@@ -158,9 +159,16 @@ li a:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .projects h3 {
+    text-align: left;
+  }
+}
+
 .projects article {
   width: 50%;
   margin: 3%;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -187,11 +195,6 @@ li a:hover {
 
 .ed .edStory {
   margin: 3%;
-}
-
-.ed h3 {
-  margin: 3%;
-  padding-top: 3%;
 }
 
 .ed h6 {
@@ -223,7 +226,7 @@ li a:hover {
 }
 
 .contact article h3 {
-  margin: 3%;
+  padding-top: 0;
 }
 
 .contact article div {

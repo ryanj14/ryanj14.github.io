@@ -28,6 +28,21 @@ li {
     }
 }
 
+.title {
+    display: flex;
+    img {
+        height: 50%;
+        width:50%;
+    }
+    article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3%;
+        width: 80%;
+    }
+}
+
 .bioSec {
     width: 50%;
     margin-left: auto;

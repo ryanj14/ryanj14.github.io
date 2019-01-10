@@ -27,6 +27,23 @@ li a:hover {
   text-decoration-color: red !important;
 }
 
+.title {
+  display: flex;
+}
+
+.title img {
+  height: 50%;
+  width: 50%;
+}
+
+.title article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+  width: 80%;
+}
+
 .bioSec {
   width: 50%;
   margin-left: auto;

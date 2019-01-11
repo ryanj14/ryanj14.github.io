@@ -29,6 +29,10 @@ li {
     }
 }
 
+figcaption {
+    text-align: center;
+}
+
 .title {
     display: flex;
     img {
@@ -59,62 +63,19 @@ li {
     }
 }
 
-.bioSec {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    @media (max-width: 768px) {
-        width: 100%;
-    }
-    .bioDiv {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        margin: 2%;
+.skillsSection {
+    .skills {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+        grid-gap: 5em;
+        justify-content: space-evenly;
         @media (max-width: 768px) {
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-        }
-        .skills {
-            width: 100%;
-            .section1 {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-pack: justify;
-                    -ms-flex-pack: justify;
-                        justify-content: space-between;
-            }
-            .section2 {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-pack: justify;
-                    -ms-flex-pack: justify;
-                        justify-content: space-between;
-            }
-            .section3 {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                justify-content: space-between;
-            }
-            text-align: center;
-            @media (max-width: 768px) {
-                margin-bottom: 3%;
-            }
+            grid-template-columns: 100px 100px;
+            grid-gap: 2em;
         }
         img {
             width: 100px;
             height: 64px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
         }
     }
 }

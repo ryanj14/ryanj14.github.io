@@ -28,6 +28,10 @@ li a:hover {
   text-decoration-color: red !important;
 }
 
+figcaption {
+  text-align: center;
+}
+
 .title {
   display: flex;
 }
@@ -68,79 +72,23 @@ li a:hover {
   }
 }
 
-.bioSec {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+.skillsSection .skills {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-gap: 5em;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 768px) {
-  .bioSec {
-    width: 100%;
+  .skillsSection .skills {
+    grid-template-columns: 100px 100px;
+    grid-gap: 2em;
   }
 }
 
-.bioSec .bioDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin: 2%;
-}
-
-@media (max-width: 768px) {
-  .bioSec .bioDiv {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-}
-
-.bioSec .bioDiv .skills {
-  width: 100%;
-  text-align: center;
-}
-
-.bioSec .bioDiv .skills .section1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.bioSec .bioDiv .skills .section2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.bioSec .bioDiv .skills .section3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (max-width: 768px) {
-  .bioSec .bioDiv .skills {
-    margin-bottom: 3%;
-  }
-}
-
-.bioSec .bioDiv img {
+.skillsSection .skills img {
   width: 100px;
   height: 64px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .projects {

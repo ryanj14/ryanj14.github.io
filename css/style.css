@@ -34,6 +34,14 @@ figcaption {
 
 .title {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .title {
+    flex-direction: column;
+  }
 }
 
 .title img {
@@ -45,31 +53,18 @@ figcaption {
   .title img {
     width: 97%;
     padding-top: 3%;
+    padding-left: 0;
   }
 }
 
 .title article {
-  align-items: center;
-  justify-content: center;
   margin: 3%;
   width: 80%;
 }
 
-@media (max-width: 768px) {
-  .title article {
-    width: 70%;
-    margin: auto;
-  }
-}
-
-.title article div h3 {
+.title article h3 {
   margin: 0;
-}
-
-@media (max-width: 768px) {
-  .title {
-    flex-direction: column;
-  }
+  margin-bottom: 3%;
 }
 
 .skillsSection .skills {
@@ -79,7 +74,13 @@ figcaption {
   justify-content: space-evenly;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 960px) {
+  .skillsSection .skills {
+    grid-gap: 1em;
+  }
+}
+
+@media screen and (max-width: 420px) {
   .skillsSection .skills {
     grid-template-columns: 100px 100px;
     grid-gap: 2em;

@@ -166,6 +166,14 @@ figcaption {
   line-height: 10px;
 }
 
+.current {
+  padding-bottom: 2%;
+}
+
+.current .currentStory {
+  margin: 3%;
+}
+
 .contact article {
   display: -webkit-box;
   display: -ms-flexbox;

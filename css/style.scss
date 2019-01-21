@@ -134,6 +134,13 @@ figcaption {
     }
 }
 
+.current {
+    padding-bottom: 2%;
+    .currentStory {
+        margin: 3%;
+    } 
+}
+
 .contact {
     article {
         display: -webkit-box;
